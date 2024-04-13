@@ -10,5 +10,5 @@ personal website
 </a>
 
 <a href="https://neocities.org/">
-<img src="https://ms2y.net/neocities.png" width="100" alt="apart of the neocities community!">
+<img src="https://ms2y.net/neocities.png" width="100" alt="apart of the neocities community!!">
 </a>
