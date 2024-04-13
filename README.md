@@ -12,3 +12,8 @@ personal website
 <a href="https://neocities.org/">
 <img src="https://ms2y.net/neocities.png" width="100" alt="apart of the neocities community!!">
 </a>
+
+<a href="https://kitgate.github.io/">
+<img src="
+https://file.garden/ZZcoyaU5uT7zKlgG/felinewebsitebutton.png" width="100" alt="Feline">
+</a>
