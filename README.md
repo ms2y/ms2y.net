@@ -4,3 +4,11 @@ personal website
 <a href="https://ms2y.net/">
 <img src="https://ms2y.net/beingworkedon.png" alt="website being worked on">
 </a>
+
+<a href="https://ms2y.net/">
+<img src="https://ms2y.net/ms2ybutton.png" alt="website redirect">
+</a>
+
+<a href="https://neocities.org/">
+<img src="https://ms2y.net/neocities.png" alt="apart of the neocities community!">
+</a>
