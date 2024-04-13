@@ -14,5 +14,5 @@ personal website
 </a>
 
 <a href="https://kitgate.github.io/">
-<img src="https://ms2y.net/felinewebsitebutton.png" width="100" alt="Feline">
+<img src="https://ms2y.net/felinewebsitebutton.png" width="90" alt="Feline">
 </a>
