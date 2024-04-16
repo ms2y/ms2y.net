@@ -10,6 +10,28 @@
 h1 {text-align: center;}
 p {text-align: center;}
 div {text-align: center;}
+
+      .post-container {
+            background-color: #984166;
+            border: 2px solid #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .post-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e7b9e9;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            font-size: 17px;
+            line-height: 1.6;
+            color: #6a0350;
+        }
+        
 </style>
   </head>
 
@@ -18,12 +40,30 @@ div {text-align: center;}
 <img src="/img/cat/beingworkedon.png" alt="website being worked on" class="center"> 
 </a>
 
-
+<div class="post-container">
+    <h2 class="post-title">Blog box!!!</h2>
+ <h2 class="post-title">4/16/2024</h2>
+    <p class="post-content">
+       First post test, finally got some sort of Blog system going, it's not great but it'll do for now.
+    </p>
+</div>
 
 
 <div><img src="/img/assets/ms2ybutton.png" width="100" alt="ms2y.net" /></div>
 <div><img src="/img/assets/felinewebsitebutton.png" width="100" alt="feline" /></div>
 <div><img src="/img/assets/neocities.png" width="100" alt="hosted by neocities!!" /></div>
 
+    <script>
+      // Get current date
+      var currentDate = new Date();
+      var day = currentDate.getDate();
+      var month = currentDate.getMonth() + 1;
+      var year = currentDate.getFullYear();
+
+      // Display date in the format MM/DD/YYYY
+      document.getElementById('postDate').innerText = month + '/' + day + '/' + year;
+    </script>
+
   </body>
 </html>
+
