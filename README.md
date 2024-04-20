@@ -2,7 +2,7 @@
 personal website
 
 <a href="https://ms2y.net/">
-<img src="https://ms2y.net/img/cat/beingworkedon.png" alt="website being worked on">
+<img src="https://ms2y.net/img/cat/ms2ysign.gif" alt="website being worked on">
 </a>
 
 <a href="https://ms2y.net/">
