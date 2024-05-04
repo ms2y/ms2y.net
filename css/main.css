@@ -9,3 +9,16 @@ body {
   margin-right: auto;
   width: 50%;
 }
+
+.test-page-container {
+  background-color: #FFD700; /* backround */
+  border: 2px solid #FFA500; /* border hopefully */
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center; 
+  font-weight: bold;
+}
