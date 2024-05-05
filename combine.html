@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combine</title>
+    <link rel="icon" type="image/x-icon" href="/img/assets/navi.png">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <style> /* BASED OFF OF https://fauux.neocities.org/combine */
+      h1, p, div, a {
+        text-align: center;
+        color: #a3ff69; /* link color */
+        text-shadow: 0 0 5px rgba(255,255,255,0.5); /* shadow */
+      }
+
+      body {
+        background-color: #220e0e; /* backround */
+        font-family: 'Courier New', monospace;
+        position: relative; /* Added position */
+      }
+
+      body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 2px, transparent 2px, transparent 4px);
+        background-size: 100% 4px;
+        z-index: -1; /* scanline layer magic */
+      }
+
+      .crt {
+        transform: rotate(-0.05deg); /* i tried making a crt bend effect, i dont think it worked but thats okay */
+      }
+
+      .post-container {
+        background-color: #101010; /* container backround */
+        border: 2px solid #333;
+        padding: 20px;
+        margin-bottom: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* slight glow effect */
+      }
+
+      .post-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #e7b9e9;
+        margin-bottom: 10px;
+        text-shadow: 0 0 5px rgba(231, 185, 233, 0.5); /* text shadow with different color */
+      }
+
+      .post-content {
+        font-size: 17px;
+        line-height: 1.6;
+        color: #6a0350;
+        text-shadow: 0 0 5px rgba(106, 3, 80, 0.5); /* text shadow with different color */
+      }
+
+      .post-container img {
+        filter: brightness(0.8) contrast(1.2) saturate(1.5); /* image changes, this like barley functions as intended */
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body class="crt">
+<audio autoplay loop>
+  <source src="https://ms2y.net/ect/ONYANKO.mp3" type="audio/mpeg">
+</audio>
+  </body>
+</html>
