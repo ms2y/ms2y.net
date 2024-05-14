@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>impact</title>
+    <link rel="icon" type="image/x-icon" href="/img/assets/welcometomyhomepage!.gif">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <style> /* ALL COMMENTS ARE FOR DOCUMENTATION, MAINLY MEANT JUST FOR THIS SITE BUT FEEL FREE TO USE BITS AND PIECES AND MAKE YOUR OWN SIMILAR SITE, BEST TO TAKE FROM THE SOURCE CODE ITSELF https://github.com/ms2y/ms2y.net */
+      h1, p, div, a {
+        text-align: center;
+        color: 000000; /* link color */
+        text-shadow: 0 0 5px rgba(255,255,255,0.5); /* shadow */
+      }
+
+      body {
+        background-color: #000000; /* backround */
+        font-family: 'Courier New', monospace;
+        position: relative; /* Added position */
+      }
+
+      body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 10px, transparent 10px, transparent 20px);
+        background-size: 100% 40px; 
+        z-index: -1; /* scanline layer magic */
+        animation: scanlines 5s linear infinite alternate; /* scanline animation */
+      }
+
+      @keyframes scanlines {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 0 100%;
+        }
+      }
+
+      .crt {
+        transform: rotate(-0.05deg); /* i tried making a crt bend effect, i dont think it worked but thats okay */
+      }
+
+      .post-container {
+        background-color: #101010; /* container backround */
+        border: 2px solid #333;
+        padding: 20px;
+        margin-bottom: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /*  glow */
+        animation: glow 2s linear infinite alternate; /* glow animation */
+      }
+
+      @keyframes glow {
+        0% {
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        100% {
+          box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+        }
+      }
+
+      .post-title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #e7b9e9;
+        margin-bottom: 10px;
+        text-shadow: 0 0 5px rgba(231, 185, 233, 0.5); /* text shadow 2 */
+      }
+
+      .post-content {
+        font-size: 17px;
+        line-height: 1.6;
+        color: #6a0350;
+        text-shadow: 0 0 5px rgba(106, 3, 80, 0.5); /* text shadow 3 */
+      }
+
+      .post-container img {
+        filter: brightness(0.8) contrast(1.2) saturate(1.5); /* image changes, this like barley functions as intended */
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+
+<audio autoplay loop>
+  <source src="https://ms2y.net/ect/impact.mp3" type="audio/mpeg">
+</audio>
+ 
+  <div style="text-align: center;">
+      <a href="">
+        <img src="/img/impact.png" alt="instrumentality">
+      </a>
+    </div>
+ 
+  </body>
+</html>
